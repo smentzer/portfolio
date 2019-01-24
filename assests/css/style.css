@@ -2,13 +2,15 @@
 darkorange	#FF8C00 */
 
 
-*{
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-shadow: border-box;
 }
 html {
-    font-size: 10px;
+    font-size: 62.5%;
 }
 body{
     font-family: 'Marvel', sans-serif;
@@ -80,7 +82,7 @@ body{
 @keyframes moveInLeft {
     0% {
         opacity: 0;
-        transform: translateX(-10rem);
+        transform: translateX(-30rem);
     }
     80% {
         transform: translate(2rem);
@@ -94,7 +96,7 @@ body{
 @keyframes moveInRight {
 0% {
     opacity: 0;
-    transform: translateX(10rem);
+    transform: translateX(30rem);
 }
 80%{
  transform: translate(-2rem);
