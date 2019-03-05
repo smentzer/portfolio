@@ -183,6 +183,9 @@ body {
   animation-fill-mode: backwards;
 }
 
+
+/* ----------- about section ----------- */
+
 .section-about {
   background-color: #f7f7f7;
   padding: 25rem 0;
@@ -275,19 +278,71 @@ body {
 .composition__photo--p3{
   left: 18%;
   top:  17rem;
+  position: relative;
+  margin-bottom: 2rem;
 }
 .composition__photo:hover {
   outline: 1.5rem solid #ff8c00;
-  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
   box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.50);
   z-index: 20;
 }
  .composition__photo:not(:hover) {
-  -webkit-transform: scale(.95);
+  transform: scale(.95);
 }
 
 
 
+/* -----------feature section----------- */
+.section-features {
+  color: #777;
+  padding: 20rem 0;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(255, 174, 25, 0.8),
+      rgba(255, 140, 0, 0.8)
+    ),
+    url(../images/rocketblast.jpg);
+    background-size: cover;
 
+    transform: skewY(-4deg);
+    margin-top: -20vh;
+}
+
+
+
+.feature-box {
+  background-color: rgba(255, 250, 250, .7) !important;
+  font-size: 1.5rem;
+  margin-top: 16rem;
+  padding: 2.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
+  transition: transform .3s;
+}
+
+.feature-box__icon {
+  font-size: 6rem;
+  margin-bottom: .5rem;
+  display: inline-block;
+  background-image: linear-gradient(to right, #ffae19, #ff8c00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.feature-box:hover {
+  transform: translateY(-1.5rem) scale(1.03);
+}
+
+/* .feature-box__text{
+
+} */
+
+.firstBox {
+  position: relative;
+  margin-left: 17rem;
+}
 
 
