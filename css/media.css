@@ -1,19 +1,25 @@
-@media (min-width: 1024px) {
-    .firstBox {
-        
-      margin-left: 10rem;
+
+@media screen and (max-width: 375px) {
+    body {
+    padding:1rem;
     }
+    .header {
+        max-width: auto;
+        max-height: 50rem;
+        clip-path: polygon(0 0, 100% 0, 100% 48vh, 0 100%);
+      }
+      .header__logo-box {
+        top: 2rem;
+        left: 2rem;
+      }
+      .heading-primary--main {
+        letter-spacing: 1.5rem;
+        font-size: 4rem;
+      }
+      .firstBox {
+        margin-left: 0rem;
+      }
   }
 
 
-
-
-
-@media (min-width: 768px) {
-    .firstBox {
-      margin-left: 9rem;
-    }
-  }
-
-
-
+      

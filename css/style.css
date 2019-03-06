@@ -29,12 +29,6 @@ body {
   padding: 3rem;
 }
 
-@media only screen and (min-width: 375px) {
-  body {
-  padding:1rem;
-  }
-}
-
 .header {
   height: 95vh;
   background-image: linear-gradient(
@@ -51,26 +45,10 @@ clip-path: polygon(100% 0, 100% 77%, 0 100%, 0 0);
 padding-bottom: 10rem;
 }
 
-@media only screen and (min-width: 375px) {
-  .header {
-      max-width: auto;
-      max-height: 50rem;
-      clip-path: polygon(0 0, 100% 0, 100% 48vh, 0 100%);
-    }
-  }
-
 .header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
-}
-
-
-@media only screen and (min-width: 375px) {
-  .header__logo-box {
-    top: 2rem;
-    left: 2rem;
-  }
 }
 
 .header__logo {
@@ -101,13 +79,6 @@ padding-bottom: 10rem;
   animation-name: moveInRight;
   animation-duration: 1s;
   animation-timing-function: ease-out;
-}
-
-@media only screen and (min-width: 375px) {
-  .heading-primary--main {
-    letter-spacing: 1.5rem;
-    font-size: 4rem;
-  }
 }
 
 .heading-primary--sub {
@@ -243,7 +214,7 @@ padding-bottom: 10rem;
   text-align: center;
 }
 .margin-bottom-big {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 .margin-bottom-small {
   margin-bottom: 1.5rem;
@@ -310,7 +281,7 @@ padding-bottom: 10rem;
   left: 18%;
   top:  17rem;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .composition__photo:hover {
   outline: 1.5rem solid #ff8c00;
@@ -343,8 +314,6 @@ padding-bottom: 10rem;
 .section-features> * {
   transform: skewY(4deg);
 }
-
-
 
 .feature-box {
   background-color: rgba(255, 250, 250, .5) ;
@@ -383,12 +352,3 @@ padding-bottom: 10rem;
   position: relative;
   margin-left: 17rem;
 }
-
-@media only screen and (min-width: 375px) {
-  .firstBox {
-    margin-left: 0rem;
-  }
-}
-
-
-
