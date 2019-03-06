@@ -55,7 +55,7 @@ body {
   .header {
     max-width: auto;
     max-height: 50rem;
-    clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 48vh, 0 100%);
   }
 }
 
