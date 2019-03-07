@@ -214,7 +214,7 @@ padding-bottom: 10rem;
   text-align: center;
 }
 .margin-bottom-big {
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 .margin-bottom-small {
   margin-bottom: 1.5rem;
@@ -281,7 +281,7 @@ padding-bottom: 10rem;
   left: 18%;
   top:  17rem;
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
 }
 .composition__photo:hover {
   outline: 1.5rem solid #ff8c00;
