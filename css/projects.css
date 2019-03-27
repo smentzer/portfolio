@@ -43,6 +43,7 @@ body {
       background-size: cover;
     
       transform: skewY(-4deg);
+      z-index: -1;
      
   }
   
