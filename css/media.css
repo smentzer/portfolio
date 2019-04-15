@@ -1,3 +1,5 @@
+/* -------------- home page -------------  */
+
 @media screen and (max-width: 1024px) {
   .header {
     height: 55vh;
@@ -13,14 +15,14 @@
   .composition__photo--p3 {
     margin-bottom: 2rem;
   }
-  .firstBox, .project1 {
+  .firstBox {
     margin-left: 12rem;
   }
   .section-features {
     max-width: auto;
     max-height: 65rem;
   }
-  .feature-box, .project-box {
+  .feature-box {
     margin-top: -2rem;
   }
 }
@@ -56,7 +58,7 @@
   .feature-box {
     margin-top: 1rem;
   }
-  .firstBox, .project1 {
+  .firstBox {
     margin-left: 8rem;
   }
 }
@@ -80,7 +82,7 @@
   .composition__photo--p3 {
     margin-bottom: 6rem;
   }
-  .feature-box, .project-box {
+  .feature-box {
     margin-top: 3rem;
   }
   .section-features {
@@ -88,7 +90,7 @@
     max-height: 120rem;
     padding: 6rem;
   }
-  .firstBox, .project1 {
+  .firstBox {
     margin-left: 0rem;
   }
 }
@@ -122,7 +124,7 @@
     top: 12rem;
     position: relative;
   }
-  .feature-box, .project-box {
+  .feature-box {
     margin-top: 1rem;
   }
   .section-features {
@@ -130,11 +132,11 @@
     max-height: 80rem;
   
   }
-  .firstBox, .project1 {
+  .firstBox {
     margin-left: 0rem;
     margin-top: 5rem;
   }
-  .lastBox, .project3 {
+  .lastBox {
     margin-bottom: 5rem;
   }
 }
@@ -166,4 +168,44 @@
     position: relative;
     margin-bottom: 6rem;
   }
+}
+
+
+/* ----------- portfolio page -----------------  */
+
+@media screen and (max-width: 1024px) {
+ .project1 {
+  margin-left: 13rem
+ }
+
+}
+
+@media screen and (max-width: 768px) {
+  .project1 {
+    margin-left: 9rem
+   }
+}
+
+@media screen and (max-width: 414px) {
+  .project-box {
+    margin-top: 3rem;
+  }
+  .section-projects {
+    max-width: auto;
+    max-height: 240rem;
+    padding: 6rem;
+  }
+
+.project1 {
+  margin-left: 0rem;
+}
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
 }
