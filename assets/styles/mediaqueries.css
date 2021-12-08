@@ -1,0 +1,64 @@
+/*-----------------media queries-----------------*/
+@media screen and (min-width: 375px) {
+    body {
+        padding:0;
+    }
+
+    .heading-primary--main {
+      font-size: 6rem !important;
+      letter-spacing: 2rem !important;
+  }
+  .header__text-box {
+    padding-top: 250px !important;
+}
+
+  .heading-secondary {
+      font-size: 3.5rem;
+    }
+
+    .margin-big-bottom {
+        margin-bottom: 0;
+      }
+
+  .box-row {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .lastBox {
+    margin-top: 0rem;
+}
+
+  .feature-box__icon {
+      font-size: 6rem;
+    }
+    .project-box {
+        margin: 5px;
+        padding: 1rem;
+    }
+ }
+
+ @media only screen and (min-width: 768px) {
+
+     .heading-primary--main {
+     font-size: 6rem;
+     letter-spacing: 3.5rem ;
+ }
+
+ .margin-big-bottom {
+    margin-bottom: 6rem;
+  }
+    .box-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+     .lastBox {
+      margin-top: 3rem;
+  }
+  .project-box {
+    background-color: rgba(255, 250, 250, .7) ;
+    font-size: 2rem;
+    margin: 3.5rem !important;
+  }
+  }
